@@ -65,6 +65,10 @@ redis                 docker-entrypoint.sh redis ...   Up (healthy)   6379/tcp
 web                   /usr/bin/supervisord -c /e ...   Up             0.0.0.0:8000->8000/tcp   
 ```
 
+## Getting started
+let's check the result:
+http://localhost/index_.html
+
 4. Run tests
 
 ```
