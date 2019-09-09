@@ -71,13 +71,6 @@ web                   /usr/bin/supervisord -c /e ...   Up             0.0.0.0:80
 $ python ../../tests.py
 ```
 
-
-## Generate Api Doc
-```.env
-$ sh ./railsrest/scripts/apidoc.sh
-```
-
-
 ## Contributing
 
 1. Fork it (https://github.com/trydirect/ror-restful/fork)
