@@ -1,3 +1,10 @@
+[![Build Status](https://travis-ci.com/trydirect/ror-restful.svg?branch=master)](https://travis-ci.com/trydirect/ror-restful)
+![Docker Stars](https://img.shields.io/docker/stars/trydirect/ror-restful.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/trydirect/ror-restful.svg)
+![Docker Automated](https://img.shields.io/docker/cloud/automated/trydirect/ror-restful.svg)
+![Docker Build](https://img.shields.io/docker/cloud/build/trydirect/ror-restful.svg)
+[![Gitter chat](https://badges.gitter.im/trydirect/community.png)](https://gitter.im/try-direct/community)
+
 # Ruby on Rails Restful API template
 
 Rails Restful API backend template - project generator/development environment.
