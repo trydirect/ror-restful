@@ -42,7 +42,8 @@ WORKDIR /usr/src/app
 COPY src/backend /usr/src/app
 RUN gem install bundler -v 1.17.3
 # && gem install rdoc-data
-RUN bundle update json && bundle install
+RUN bundle install
+#RUN bundle update && bundle update json
 RUN /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
 #CMD ["rails", "server", "--binding", "0.0.0.0", "--port", "3000" ]
 
